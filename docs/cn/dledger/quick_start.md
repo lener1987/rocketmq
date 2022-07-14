@@ -32,6 +32,8 @@
 
 `cd distribution/target/apache-rocketmq`
 
+`chmod +x bin/*.sh bin/mqadmin bin/mqbroker bin/mqbroker.numanode* bin/mqnamesrv bin/mqshutdown bin/dledger/fast-try.sh`
+
 `sh bin/dledger/fast-try.sh start`
 
 如果上面的步骤执行成功，可以通过 mqadmin 运维命令查看集群状态。
